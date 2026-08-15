@@ -1,0 +1,14 @@
+.card {
+    background-color: var(--neutral-surface);
+    border-radius: 24px;
+}
+
+.header {
+    background-color: var(--neutral-header);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.body {
+
+}
