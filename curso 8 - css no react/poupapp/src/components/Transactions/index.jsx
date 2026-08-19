@@ -2,6 +2,8 @@ import { Button } from '../Button'
 import { TransactionItem } from '../TransactionItem'
 import styles from './transactions.module.css'
 import currencyImg from '../../assets/Ícone modal transação (2).svg'
+import { List } from '../List'
+import { ListItem } from '../ListItem'
 
 export function Transactions() {
     const items = [
@@ -29,16 +31,16 @@ export function Transactions() {
 
     return (
         <>
-        <ul className={styles.list}>
+        <List className={styles.list}>
             {items.map((transactionItem, index) => {
                 
                 return (
-                    <li key={index}>
+                    <ListItem key={index}>
                         <TransactionItem item={transactionItem}/>
-                    </li>
+                    </ListItem>
                 )
             })}
-        </ul>
+        </List>
 
         <div className={styles.actions}>
             <Button>

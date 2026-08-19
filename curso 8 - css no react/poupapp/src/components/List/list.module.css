@@ -1,0 +1,7 @@
+/* src/components/List/list.module.css */ 
+.list { 
+padding: 0; 
+margin: 0; 
+list-style: none; 
+margin-bottom: 48px; 
+}
