@@ -1,0 +1,23 @@
+{
+  "name": "3519-nodejs-vidflow",
+  "version": "1.0.0",
+  "description": "![Imagem de capa do curso. O título é \"3519 - Node.js e terminal\" e o subtítulo é \"Dominando o ambiente de desenvolvimento front-end\".](./thumb.png)",
+  "homepage": "https://github.com/alura-cursos/3519-nodejs-vidflow#readme",
+  "bugs": {
+    "url": "https://github.com/alura-cursos/3519-nodejs-vidflow/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alura-cursos/3519-nodejs-vidflow.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^10.7.0"
+  }
+}
